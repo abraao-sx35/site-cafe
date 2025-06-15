@@ -11,10 +11,16 @@ body{
 }
 menu{
     height: 110px;
+    display: flex;
+    justify-content: center;
 }
+#menu{
+    display: none;
+}
+
 ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     list-style: none;
     flex: auto;
 }
@@ -29,7 +35,7 @@ ul>li>a{
     
 
 }
-ul>li{
+menu>ul>li{
     margin: 35px;
     text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.623);
 }
@@ -38,7 +44,7 @@ a:hover{
     color:#8b4513dc ;
 }
 
-ul>h1{
+menu>h1{
     margin: 25px;
     color:#7B3F00;
     font-size: 40px;
@@ -53,15 +59,12 @@ ul>h1{
     background-size: cover;
     background-position: left left;
     opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
-.imagem>#txt_img{
-   position: absolute;
-   top: 75%;
-   left: 55%;
-   transform: translate(-50% , -70%);
-   color: white;
-}
 
 .imagem>#txt_img>h1{
     font-weight: 800;
@@ -78,6 +81,7 @@ ul>h1{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    flex: auto;
 }
 
 .container>div>p{
