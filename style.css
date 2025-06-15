@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: 	#fae9c8;
+}
+menu{
+    height: 110px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex: auto;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: 	#8b4513a9;
+    font-weight: 700;
+    transition: transform 0.1s ease;
+    display: inline-block;
+    font-size: medium;
+    
+
+}
+ul>li{
+    margin: 35px;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.623);
+}
+a:hover{
+    transform: scale(1.2);
+    color:#8b4513dc ;
+}
+
+ul>h1{
+    margin: 25px;
+    color:#7B3F00;
+    font-size: 40px;
+}
+
+.imagem{
+    border: 2px solid black;
+    background-image: url(img/A-cup-of-coffee-coffee-beans-placed-heart-shaped-pattern_2560x1600.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left left;
+    opacity: 0.9;
+}
+
+.imagem>#txt_img{
+   position: absolute;
+   top: 75%;
+   left: 55%;
+   transform: translate(-50% , -70%);
+   color: white;
+}
+
+.imagem>#txt_img>h1{
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 1px 5px 2px black;
+}
+.imagem>#txt_img>h4{
+    text-shadow: 1px 5px 8px black;
+    font-size: larger;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.container>div>p{
+    font-weight: 600;
+    margin: 5;
+}
+.container>div>h3{
+    font-size: x-large;
+}
+
+.cafes_fotos{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+footer{
+    height: 70px;
+    background-color: #4b2701;
+    color: white;
+}
+footer>p{
+    margin-left: 15px;
+    margin-top: 5px;
+}
