@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width:700px ) {
+@media (min-width: 320px) and (max-width:800px ) {
    
     body{
         overflow-x: hidden;
@@ -19,6 +19,7 @@
     }
 
     menu>h1{
+        color:#864500;
         margin-left: 30px;
         margin-right: 80px;
         text-align: right;
