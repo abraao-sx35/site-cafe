@@ -4,33 +4,46 @@
         overflow-x: hidden;
     }
      /* cabeça */
-    li{
+    ul{
         display: none;
     }
     menu{
         display: flex;
         align-items: center;
+        transition: transform 0.1s ease;
     }
-    #menu{
-        display: flex;
-        justify-content: right;
-        margin-left: 60px ;
-        font-size: 30px;
+    #cafe{
+        display: block;
+        text-align: right;
+        margin-right: 40px;
+        font-size: 40px;
+        color: #864500;
+    }
+    
+    #cafe:hover{
+        color: #5a2f00;
+        transform: scale(1.2);
     }
 
     menu>h1{
+        display: block;
+        font-size: 40px;
         color:#864500;
-        margin-left: 30px;
-        margin-right: 80px;
-        text-align: right;
+        margin-right: auto;
     }
     /* corpo */
+    .imagem>#txt_img{
+        margin: 15px 25px;
+    }
     .imagem>#txt_img>h1{
         font-weight: 800;
         font-size: 45px;
         text-shadow: 1px 5px 2px black;
     }
 
+    .imagem{
+        background-position: center left;
+    }
     .container{
         flex-direction: column;
     }
